@@ -19,3 +19,7 @@ Required settings:
 * from_number
 * to_number
 * body
+
+---
+
+Check out the go twilio api at https://github.com/sfreiberg/gotwilio
