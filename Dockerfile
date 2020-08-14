@@ -1,4 +1,4 @@
 FROM alpine
-ADD twilio /bin/
+ADD drone-twilio /bin/
 RUN apk -Uuv add ca-certificates
-ENTRYPOINT /bin/twilio
+ENTRYPOINT /bin/drone-twilio

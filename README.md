@@ -4,7 +4,7 @@
 
 ```yml
 - name: twilio
-  image: royzwambag/twilio
+  image: royzwambag/drone-twilio
   settings:
     account_sid: AC1234abcdef
     auth_token: secret

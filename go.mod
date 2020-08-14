@@ -1,4 +1,4 @@
-module github.com/royzwambag/twilio
+module github.com/royzwambag/drone-twilio
 
 go 1.15
 
