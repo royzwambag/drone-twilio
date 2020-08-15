@@ -15,5 +15,11 @@ func main() {
 	to := os.Getenv("PLUGIN_TO_NUMBER")
 	body := os.Getenv("PLUGIN_BODY")
 
-	twilio.SendSMS(from, to, body, "", "")
+	messageType := os.Getenv("PLUGIN_TYPE")
+
+	if messageType == "whatsapp" {
+		twilio.SendWhatsApp(from, to, body, "", "")
+	} else {
+		twilio.SendSMS(from, to, body, "", "")
+	}
 }

@@ -11,6 +11,7 @@
     from_number: +12512205274
     to_number: +12512205274
     body: Your drone build is ready!
+    type: whatsapp
 ```
 
 Required settings:
@@ -19,6 +20,9 @@ Required settings:
 * from_number
 * to_number
 * body
+
+Optional settings:
+* type: either "whatsapp" or "sms" (defaults to "sms")
 
 ---
 
